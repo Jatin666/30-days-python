@@ -1,0 +1,5 @@
+import numpy as np
+a = np.array([[1,4,5],[6,5,4]])
+b = np.array([[2,3,1],[4,15,4],[3,8,9]])
+c= np.dot(a, b)
+print(c)
